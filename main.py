@@ -22,10 +22,10 @@ def main():
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
   print """%s
-  __  __ ___    ___                                   
- |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %sabilseno11%s
- | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/AbilSeno%s
- |_|  |_|___/  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %sanoncybfakeplayers%s
+  ___                                   
+  _ _ __  _ __  ___ _ _ ___ %sAuthor by %sabilseno11%s
+ \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/koleksibot%s
+|___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %sLulzGhost-Team%s
                    |_|                                 %sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
@@ -35,7 +35,7 @@ def input():
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
   elif nom.startswith(tuple(["62","+62","0"])):
-    print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 85877162199"%(pu,me,pu,ku,pu,me,pu,ku)
+    print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 89382826181"%(pu,me,pu,ku,pu,me,pu,ku)
     input()
   else:
     global jum
@@ -103,9 +103,9 @@ def klikwa():
  dat=json.dumps({"number":"+62"+nom})
  tes = requests.post("https://api.klikwa.net/v1/number/sendotp",headers={'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36','Authorization':'Basic QjMzOkZSMzM='},data=dat)
  if json.loads(tes.text)["message"] == 'OTP Sent':
-  print "     %s[%s%s%s] [%s Sent %s] %sSuccess, spam %s from %s%s %ssended %s>> %sMau yang unlimited? %shttps://github.com/AbilSeno/WaUnlimitedV3"%(pu,ku,"10",pu,hi,pu,pu,"wa",ku,"klikwa",hi,qu,pu,ku)
+  print "     %s[%s%s%s] [%s Sent %s] %sSuccess, spam %s from %s%s %ssended %s>> %sMau yang lain? %shttps://github.com/koleksibot"%(pu,ku,"10",pu,hi,pu,pu,"wa",ku,"klikwa",hi,qu,pu,ku)
  else:
-  print "     %s[%s%s%s] [%s Failed %s] %sFailed, spam %s from %s%s %snot sended %s>> %sMau yang unlimited? %shttps://github.com/AbilSeno/WaUnlimitedV3"%(pu,ku,"10",pu,me,pu,pu,"wa",ku,"klikwa",me,qu,pu,ku)
+  print "     %s[%s%s%s] [%s Failed %s] %sFailed, spam %s from %s%s %snot sended %s>> %sMau yang lain? %shttps://github.com/koleksibot"%(pu,ku,"10",pu,me,pu,pu,"wa",ku,"klikwa",me,qu,pu,ku)
 def bakmikeraton():
 # huh = requests.post("https://www.bakmikeraton.com/services/identity/requestOTP",headers={'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36'},data={'destination':'0'+nom,'otpLength':'6'})
  #if json.loads(huh.text)["IsSuccess"] == True:
