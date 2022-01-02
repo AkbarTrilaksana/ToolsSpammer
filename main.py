@@ -8,9 +8,9 @@ me = '\033[0;31m'
 ku = '\033[0;33m'
 #--------------------------------Penkodisian-------------------------------------------
 def sukses(no1,pro,nam):
-  print "     %s[%s%s%s] [%s Sent %s] %sSuccess, spam %s from %s%s %ssended"%(pu,ku,no1,pu,hi,pu,pu,pro,ku,nam,hi)
+  print "     %s[%s%s%s] [%s Berhasil %s] %sBerhasil, spam %s Ke %s%s %ssended"%(pu,ku,no1,pu,hi,pu,pu,pro,ku,nam,hi)
 def gagal(no1,pro,nam):
-  print "     %s[%s%s%s] [%s Failed  %s] %sFailed, spam %s from %s%s %snot sended"%(pu,ku,no1,pu,me,pu,pu,pro,ku,nam,me)
+  print "     %s[%s%s%s] [%s Gagal  %s] %sTidakBisa, spam %s Ke %s%s %snot sended"%(pu,ku,no1,pu,me,pu,pu,pro,ku,nam,me)
 #--------------------------------MAIN---------------------------------------------------
 def main():
   print "%s[%s!%s] %sTarget locked >> %s%s"%(pu,me,pu,pu,ku,"+62"+nom)
@@ -23,7 +23,7 @@ def main():
 def logo():
   print """%s
   ___                                   
-  _ _ __  _ __  ___ _ _ ___ %sAuthor by %sabilseno11%s
+  _ _ __  _ __  ___ _ _ ___ %sAuthor by %sAhmadChenDev1337%s
  \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/koleksibot%s
 |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %sLulzGhost-Team%s
                    |_|                                 %sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
