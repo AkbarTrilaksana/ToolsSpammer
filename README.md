@@ -1,37 +1,37 @@
-# MDSpammers
+# ToolsSpammer
 Medium spammers dengan 30 Tools Spammers (SMS,Call,Wa).
-# Spam available
+# Spam available Work 100%
 ```
-- asakita
-- sunchilla 
-- nutriclub
-- asani
-- wintershop
-- datesy
-- thaifriendly
-- jumpstart
-- kinimart
-- klikwa
-- bakmikeraton
-- kopidulukala
-- kredinesia
-- pinjamindo
-- uangpintar
-- danafix
-- maucash 
-- omamoriexpress
-- danacepat
-- cairin
-- kredito
-- kreditpedia
-- bocil
-- duitqu
-- primacash
-- temanprima
-- maripinjam
-- sobatbangun
+- asakita 👻
+- sunchilla 👻
+- nutriclub👻
+- asani👻
+- wintershop👻
+- datesy👻
+- thaifriendly👻
+- jumpstart👻
+- kinimart👻
+- klikwa👻
+- bakmikeraton👻
+- kopidulukala👻
+- kredinesia👻
+- pinjamindo👻
+- uangpintar👻
+- danafix👻
+- maucash 👻
+- omamoriexpress👻
+- danacepat👻
+- cairin👻
+- kredito👻
+- kreditpedia👻
+- bocil👻
+- duitqu👻
+- primacash👻
+- temanprima👻
+- maripinjam👻
+- sobatbangun👻
 ```
-# Requirements
+# Requirements📌
 ```
 requests
 ```
@@ -39,9 +39,8 @@ requests
 ```
 $ apt update && apt upgrade
 $ pkg update;pkg install python2
-$ git clone https://github.com/AbilSeno/MDSpammers
-$ cd MDSpammers
+$ git clone https://github.com/koleksibot/ToolsSpammer
+$ cd ToolsSpammer
 $ pip2 install requests
 $ python2 main.py
 ```
-Ketik ```git pull``` untuk mengupdate script
