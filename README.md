@@ -2,6 +2,8 @@
 ![DEMO TOOLSKU](https://user-images.githubusercontent.com/94370774/147890656-95196a75-dd62-4971-b4ed-4e0cc48dfa8e.jpg)
 
 Medium spammers dengan 30 Tools Spammers (SMS,Call,Wa).
+![contoh](https://user-images.githubusercontent.com/94370774/148019133-bf4b82b4-089c-47f7-a220-099f9959e516.png)
+
 # Spam available Work 100%
 ```
 - asakita 👻
